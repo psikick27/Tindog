@@ -1,0 +1,179 @@
+.body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    padding: 1% 0%;
+    color: white;
+}
+
+
+h1{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 2% 15% 7%;
+}
+
+.container{
+    padding: 23.75px 0.2% 1px;
+}
+
+.imagedog{
+    transform: rotate(25deg);
+    width: 20%;
+    padding-top: 20px;
+    position: absolute;
+    right: 25%;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link{
+    font-size: larger;
+    color: white;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* next section */
+
+#features{
+    background-color: white;
+    padding: 7% 15% 6%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: "oswald";
+    font-style: Bold;
+}
+
+p{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 2% 15%;
+    font-family: "Oswald";
+    font-style: Bold;
+    color: white;
+
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.image-dog{
+    width: 15%;
+    border-radius: 100%;
+    margin: 50px 0px 2px;
+}
+
+.p{
+    color: white;
+}
+
+.carousel-item{
+  padding: 7% 10%;
+}
+
+.testimonial-image-lady{
+    width: 15%;
+    border-radius: 100%;
+    margin: 50px 0px 0px; 
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 0px 20px 80px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 50px;
+    text-align: center;
+}
+
+@media (max-width :990px){
+
+    #title{
+        text-align: center;
+    }
+
+    .imagedog{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+    }
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15% 4.5%;
+}
+
+.last-text{
+    font-family: "oswald";
+    font-style: bold;
+    font-size: 3.5rem;
+}
+
+/* footer */
+
+#footer{
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.last-icon{
+    padding: 1% 1%;
+}
